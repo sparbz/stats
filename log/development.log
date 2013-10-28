@@ -796,3 +796,27 @@ Started GET "/assets/players.js?body=1" for 50.241.64.197 at 2013-10-28 13:58:30
 
 
 Started GET "/assets/application.js?body=1" for 50.241.64.197 at 2013-10-28 13:58:30 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:02:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (82.5ms)
+Completed 500 Internal Server Error in 161ms
+
+ActionView::Template::Error (couldn't find file 'twitter/bootstrap'
+  (in /home/stats/stats/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4575762673489944692_24379320'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
