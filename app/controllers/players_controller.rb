@@ -3,7 +3,7 @@ class PlayersController < ApplicationController
   helper_method :sort_column, :sort_direction
   
   def index
-    @products = Product.order(sort_column + " " + sort_direction)
+    @players = Player.order(sort_column + " " + sort_direction)
   end
   
   # GET /players
