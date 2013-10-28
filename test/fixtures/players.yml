@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  position: MyString
+  fg: 1.5
+  ft: 1.5
+  tpm: 1.5
+  reb: 1.5
+  ast: 1.5
+  stl: 1.5
+  blk: 1.5
+  pts: 1.5
+
+two:
+  name: MyString
+  position: MyString
+  fg: 1.5
+  ft: 1.5
+  tpm: 1.5
+  reb: 1.5
+  ast: 1.5
+  stl: 1.5
+  blk: 1.5
+  pts: 1.5
