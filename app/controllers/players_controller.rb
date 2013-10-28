@@ -104,5 +104,6 @@ class PlayersController < ApplicationController
           stl_array.push(player.stl)
           blk_array.push(player.blk)
           pts_array.push(player.pts)
+        end
     end
 end
