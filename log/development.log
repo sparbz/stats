@@ -1485,3 +1485,100 @@ Processing by PlayersController#index as HTML
   [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players"[0m
   Rendered players/index.html.erb within layouts/application (66.3ms)
 Completed 200 OK in 76ms (Views: 74.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:58:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.9ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (89.7ms)
+Completed 200 OK in 250ms (Views: 222.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:58:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20131028155907)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (6.8ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (7.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (7.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131028155907"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/players" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (64.4ms)
+Completed 200 OK in 189ms (Views: 162.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:59:49 +0000
