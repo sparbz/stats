@@ -1,6 +1,6 @@
 class PlayersController < ApplicationController
   before_action :set_player, only: [:show, :edit, :update, :destroy]
-  helper_method :sort_column, :sort_direction
+  helper_method :sort_column, :sort_direction, :get_stats
   
   def index
     @players = Player.order(params[:sort] + " " + params[:direction])
@@ -83,5 +83,26 @@ class PlayersController < ApplicationController
   
     def sort_direction
          %w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
+    end
+
+    def get_stats
+        fg_array = []
+        ft_array = []
+        tpm_array = []
+        reb_array = []
+        ast_array = []
+        stl_array = []
+        blk_array = []
+        pts_array = []
+
+        Player.each do |player|
+          fg_array.push(player.fg)
+          ft_array.push(player.ft)
+          tpm_array.push(player.tpm)
+          reb_array.push(player.reb)
+          ast_array.push(player.ast)
+          stl_array.push(player.stl)
+          blk_array.push(player.blk)
+          pts_array.push(player.pts)
     end
 end
