@@ -2,15 +2,15 @@
   <thead>
     <tr>
       <th><%= sortable "name" %></th>
-      <th><%= sortable "position" %></th>
-      <th><%= sortable "fg" %></th>
-      <th><%= sortable "ft" %></th>
-      <th><%= sortable "tpm" %></th>
-      <th><%= sortable "reb" %></th>
-      <th><%= sortable "ast" %></th>
-      <th><%= sortable "stl" %></th>
-      <th><%= sortable "blk" %></th>
-      <th><%= sortable "pts" %>Pts</th>
+      <th><%= link_to "Position", :sort => "position" %></th>
+      <th><%= link_to "FG", :sort => "fg" %></th>
+      <th><%= link_to "FT%", :sort => "ft" %></th>
+      <th><%= link_to "3PM", :sort => "tpm" %></th>
+      <th><%= link_to "REB", :sort => "reb" %></th>
+      <th><%= link_to "AST", :sort => "ast" %></th>
+      <th><%= link_to "STL", :sort => "stl" %></th>
+      <th><%= link_to "BLK", :sort => "blk" %></th>
+      <th><%= link_to "PTS", :sort => "pts" %>Pts</th>
     </tr>
   </thead>
 

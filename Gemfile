@@ -9,8 +9,6 @@ gem 'sqlite3'
 #Install Devise
 gem 'devise'
 
-gem 'active_scaffold', github: 'activescaffold/active_scaffold'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

@@ -1,5 +1,4 @@
 Stats::Application.routes.draw do
-  resources :players do as_routes end
   devise_for :users
   resources :players
   root to: 'players#index'
