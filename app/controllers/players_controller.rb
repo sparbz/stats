@@ -3,7 +3,7 @@ class PlayersController < ApplicationController
   helper_method :sort_column, :sort_direction
   
   def index
-    @players = Player.order(sort_column + " " + sort_direction)
+    @players = Player.order(sort_column + " " + sort_direction).reverse
   end
   
   # GET /players
@@ -74,14 +74,14 @@ class PlayersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def player_params
-      params.require(:player).permit(:name, :position, :fg, :ft, :tpm, :reb, :ast, :stl, :blk, :pts)
+      params.require(:player).permit(:name, :position, :fg, :ft, :tpm, :reb, :ast, :stl, :blk, :pts, :fgs)
     end
 
-      def sort_column
+    def sort_column
    		 Player.column_names.include?(params[:sort]) ? params[:sort] : "name"
-      end
+    end
   
-      def sort_direction
+    def sort_direction
          %w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
-      end
+    end
 end
