@@ -1,4 +1,5 @@
 class PlayersController < ApplicationController
+<<<<<<< HEAD
   before_action :set_player, only: [:show, :edit, :update, :destroy]
   helper_method :sort_column, :sort_direction
   
@@ -84,4 +85,8 @@ class PlayersController < ApplicationController
       def sort_direction
          %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
       end
+=======
+  active_scaffold :"player" do |conf|
+  end
+>>>>>>> fdc4ba44fea6d61b73366694b311869d3556e534
 end
