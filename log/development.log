@@ -820,3 +820,668 @@ ActionView::Template::Error (couldn't find file 'twitter/bootstrap'
   Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
   Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
   Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:08:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 261ms (Views: 235.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:08:07 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:16:47 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (88.1ms)
+Completed 200 OK in 204ms (Views: 179.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:16:49 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:17:15 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 172ms (Views: 146.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:17:16 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:19:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (80.3ms)
+Completed 200 OK in 247ms (Views: 221.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:19:44 +0000
+
+
+Started GET "/" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 48ms (Views: 45.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/players.css?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/players.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 50.241.64.197 at 2013-10-28 15:20:54 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:27:09 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (89.2ms)
+Completed 200 OK in 194ms (Views: 169.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:27:10 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:29:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 172ms (Views: 147.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:09 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:29:12 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:35:51 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (83.4ms)
+Completed 200 OK in 190ms (Views: 164.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:35:52 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:37:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (81.7ms)
+Completed 200 OK in 179ms (Views: 154.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:37:56 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:39:02 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (84.2ms)
+Completed 200 OK in 179ms (Views: 154.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:39:03 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (84.9ms)
+Completed 200 OK in 185ms (Views: 159.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:41:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:57 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:57 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:41:57 +0000
+
+
+Started GET "/" for 71.192.162.74 at 2013-10-28 15:43:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 188ms (Views: 162.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:43:06 +0000
+
+
+Started GET "/" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/players.css?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/assets/players.js?body=1" for 50.241.64.197 at 2013-10-28 15:43:08 +0000
+
+
+Started GET "/players/4" for 71.192.162.74 at 2013-10-28 15:48:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPlayer Load (0.3ms)[0m  SELECT "players".* FROM "players" WHERE "players"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered players/show.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 162ms (Views: 76.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/bootstrap.css?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/players.css?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 15:48:58 +0000
+
+
+Started GET "/players" for 71.192.162.74 at 2013-10-28 15:49:02 +0000
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (66.3ms)
+Completed 200 OK in 76ms (Views: 74.2ms | ActiveRecord: 0.8ms)
