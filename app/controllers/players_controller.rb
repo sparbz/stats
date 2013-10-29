@@ -84,7 +84,7 @@ class PlayersController < ApplicationController
     def sort_direction
          %w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
     end
-
+    
     def get_stats
         fg_array = []
         ft_array = []
@@ -105,5 +105,16 @@ class PlayersController < ApplicationController
           blk_array.push(player.blk)
           pts_array.push(player.pts)
         end
+   ##     stats = []
+   #     stats.push(DescriptiveStatistics::Stats.new(fg_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(ft_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(tpm_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(reb_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(ast_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(stl_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(blk_array))
+   #     stats.push(DescriptiveStatistics::Stats.new(pts_array))
+
+   #     @stats = stats
     end
 end

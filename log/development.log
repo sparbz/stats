@@ -1915,3 +1915,1466 @@ Started GET "/assets/application.js?body=1" for 71.192.162.74 at 2013-10-28 16:1
 
 
 Started GET "/assets/players.js?body=1" for 71.192.162.74 at 2013-10-28 16:13:50 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-29 09:03:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (1.2ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (103.1ms)
+Completed 500 Internal Server Error in 187ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    32:   </tbody>
+    33: 
+    34:   <tbody>
+    35:     <% @stats.each do |stat| %>
+    36:       <tr>
+    37:         <td><%= stat.mean %></td>
+    38:         <td><%= stat.mean %></td>
+  app/views/players/index.html.erb:35:in `_app_views_players_index_html_erb__3275939929292494038_70173692306040'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-29 09:06:14 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 878ms (Views: 876.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.9ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 77ms (Views: 66.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:06:32 -0400
+
+
+Started GET "/players?direction=asc&sort=fg" for 127.0.0.1 at 2013-10-29 09:06:36 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"fg"}
+  [1m[36mPlayer Load (1.1ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY fg[0m
+  Rendered players/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/players?direction=desc&sort=fg" for 127.0.0.1 at 2013-10-29 09:06:36 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"desc", "sort"=>"fg"}
+  [1m[35mPlayer Load (0.9ms)[0m  SELECT "players".* FROM "players" ORDER BY fg
+  Rendered players/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/players?direction=asc&sort=fg" for 127.0.0.1 at 2013-10-29 09:06:37 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"fg"}
+  [1m[36mPlayer Load (2.0ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY fg[0m
+  Rendered players/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:06:58 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players" ORDER BY pts
+  Rendered players/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/players?direction=desc&sort=pts" for 127.0.0.1 at 2013-10-29 09:06:59 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"desc", "sort"=>"pts"}
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY pts[0m
+  Rendered players/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:06:59 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[35mPlayer Load (1.1ms)[0m  SELECT "players".* FROM "players" ORDER BY pts
+  Rendered players/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:15:29 -0400
+
+SyntaxError (/Users/saulsparber/Documents/sparbzstats/stats/app/controllers/players_controller.rb:9: syntax error, unexpected tSYMBEG, expecting ')'
+                   :category => "first",
+                    ^
+/Users/saulsparber/Documents/sparbzstats/stats/app/controllers/players_controller.rb:9: syntax error, unexpected ',', expecting keyword_end
+/Users/saulsparber/Documents/sparbzstats/stats/app/controllers/players_controller.rb:11: syntax error, unexpected tASSOC, expecting keyword_end
+                   :descending => true
+                                 ^
+/Users/saulsparber/Documents/sparbzstats/stats/app/controllers/players_controller.rb:128: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3775714777083955913__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.1ms)
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[36mPlayer Load (1.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY pts[0m
+  Rendered players/index.html.erb within layouts/application (93.8ms)
+Completed 200 OK in 109ms (Views: 102.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:54 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:54 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:15:54 -0400
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:17:57 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  Rendered players/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @players.each do |player| %>
+    19:       <tr>
+    20:         <td><%= player.name %></td>
+    21:         <td><%= player.position %></td>
+  app/views/players/index.html.erb:18:in `_app_views_players_index_html_erb__3275939929292494038_70173663549920'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players" ORDER BY pts
+  Rendered players/index.html.erb within layouts/application (87.9ms)
+Completed 200 OK in 102ms (Views: 95.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:18:07 -0400
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY pts[0m
+  Rendered players/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:32:55 -0400
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players" ORDER BY pts
+  Rendered players/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:33:49 -0400
+
+
+Started GET "/players?direction=asc&sort=fg" for 127.0.0.1 at 2013-10-29 09:34:00 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"fg"}
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY fg[0m
+  Rendered players/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/stats" for 127.0.0.1 at 2013-10-29 09:37:40 -0400
+Processing by StatsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant StatsController::StatsGrid):
+  app/controllers/stats_controller.rb:4:in `index'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.9ms)
+
+
+Started GET "/stats" for 127.0.0.1 at 2013-10-29 09:39:49 -0400
+Processing by StatsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant StatsController::StatsGrid):
+  app/controllers/stats_controller.rb:4:in `index'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/stats" for 127.0.0.1 at 2013-10-29 09:39:51 -0400
+Processing by StatsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant StatsController::StatsGrid):
+  app/controllers/stats_controller.rb:4:in `index'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.0ms)
+
+
+Started GET "/stats/new" for 127.0.0.1 at 2013-10-29 09:40:56 -0400
+
+AbstractController::ActionNotFound (The action 'new' could not be found for StatsController):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3775714777083955913__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/stats" for 127.0.0.1 at 2013-10-29 09:41:12 -0400
+Processing by StatsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant StatsController::StatsGrid):
+  app/controllers/stats_controller.rb:4:in `index'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/players?direction=asc&sort=pts" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"direction"=>"asc", "sort"=>"pts"}
+  [1m[35mPlayer Load (1.2ms)[0m  SELECT "players".* FROM "players" ORDER BY pts
+  Rendered players/index.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 62ms (Views: 55.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 09:50:15 -0400
+
+
+Started GET "/stats" for 127.0.0.1 at 2013-10-29 09:53:13 -0400
+Processing by StatsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant StatsController::StatsGrid):
+  app/controllers/stats_controller.rb:4:in `index'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/player" for 127.0.0.1 at 2013-10-29 09:58:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/player"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (57.2ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 09:59:02 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.9ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (91.8ms)
+Completed 500 Internal Server Error in 119ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:00:46 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/src/demo_table_jui'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:01:38 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/src/demo_table_jui'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:02:30 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (14.6ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:03:14 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:05:17 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.6ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:05:17 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (71.8ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:09:31 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (couldn't find file 'datatables/jquery.datatables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:09:32 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (1.1ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'datatables/jquery.datatables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:10:31 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (couldn't find file 'datatables/jquery.datatables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.0ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:10:32 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (91.8ms)
+Completed 500 Internal Server Error in 112ms
+
+ActionView::Template::Error (couldn't find file 'datatables/jquery.datatables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:10:33 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (couldn't find file 'datatables/jquery.datatables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:10:36 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.7ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:10:37 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:20:23 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:20:24 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.5ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:20:25 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.7ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:21:26 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/src/demo_table_jui'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:21:36 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (14.5ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (couldn't find file 'jquery-ui'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/javascripts/application.js:19)):
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1892668450033346423_70173701351960'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.6ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:22:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (56.5ms)
+Completed 500 Internal Server Error in 207ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3877554330242350925_70280854625360'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.7ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:22:10 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3877554330242350925_70280854625360'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (36.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (51.4ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:24:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (50.1ms)
+Completed 500 Internal Server Error in 201ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.core'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___630685427301667130_70135353864980'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.8ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:25:52 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.call'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___630685427301667130_70135353864980'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.2ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:25:53 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.call'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___630685427301667130_70135353864980'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.0ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:27:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (52.7ms)
+Completed 500 Internal Server Error in 200ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.call'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3352674227958377147_70232008157060'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.5ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:27:08 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.call'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3352674227958377147_70232008157060'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:27:08 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.6ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.call'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3352674227958377147_70232008157060'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.8ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:27:08 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.call'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3352674227958377147_70232008157060'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.8ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:30:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.8ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (50.1ms)
+Completed 500 Internal Server Error in 252ms
+
+ActionView::Template::Error (couldn't find file 'jquery-ui'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/javascripts/application.js:19)):
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2660603297213030201_70337905611100'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.3ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:31:31 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (43.7ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/javascripts/application.js:16)):
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2660603297213030201_70337905611100'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:32:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (67.5ms)
+Completed 500 Internal Server Error in 250ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/javascripts/application.js:16)):
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2124942434766405774_70362278539820'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:32:42 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/javascripts/application.js:16)):
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2124942434766405774_70362278539820'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:33:13 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 67ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables.bootstrap'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2124942434766405774_70362278539820'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.2ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:33:14 -0400
+Processing by PlayersController#index as HTML
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players"[0m
+  Rendered players/index.html.erb within layouts/application (18.2ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables.bootstrap'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2124942434766405774_70362278539820'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 10:33:15 -0400
+Processing by PlayersController#index as HTML
+  [1m[35mPlayer Load (0.7ms)[0m  SELECT "players".* FROM "players"
+  Rendered players/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (couldn't find file 'dataTables/jquery.dataTables.bootstrap'
+  (in /Users/saulsparber/Documents/sparbzstats/stats/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3: <head>
+    4:   <title>Stats</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2124942434766405774_70362278539820'
+
+
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/saulsparber/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.1ms)
